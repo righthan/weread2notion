@@ -96,7 +96,8 @@ def get_callout(content, style, colorStyle, reviewId):
     color = "default"
     # 根据划线颜色设置文字的颜色
     if colorStyle == 1:
-        color = "red"
+        # color = "red"
+        color = "default"
     elif colorStyle == 2:
         color = "purple"
     elif colorStyle == 3:
